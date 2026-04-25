@@ -4,14 +4,14 @@
     <h2>Konvertera längd</h2>
 
     <label for="meter">Meter</label>
-    <input type="number" id="meter" [(ngModel)]="">
+    <input type="number" id="meter" [(ngModel)]="meter">
 
     <p>Till</p>
 
     <label for="foot">Foot</label>
-    <input type="number" id="foot" [(ngModel)]="">
+    <input type="number" id="foot" [(ngModel)]="foot">
 
-    <button>Konvertera</button>
+    <button (click)="()">Konvertera</button>
 
     <p>Resultat: </p>
 </section>
@@ -20,14 +20,14 @@
     <h2>Konvertera grader</h2>
 
     <label for="celcius">Celcius</label>
-    <input type="number" id="celcius" [(ngModel)]="">
+    <input type="number" id="celcius" [(ngModel)]="celcius">
 
     <p>Till:</p>
 
     <label for="farenheit">Farenheit</label>
-    <input type="number" id="farenheit" [(ngModel)]="">
+    <input type="number" id="farenheit" [(ngModel)]="fahrenheit">
 
-    <button>Konvertera</button>
+    <button (click)="()">Konvertera</button>
 
     <p>Resultat:</p>
 </section>
