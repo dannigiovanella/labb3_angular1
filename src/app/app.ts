@@ -12,4 +12,8 @@ import { Navbar } from './navbar/navbar';
 })
 export class App {
   protected readonly title = signal('labb3_angular');
+
+  //Bild i header
+  headerimage = "/header.webp";
+
 }
