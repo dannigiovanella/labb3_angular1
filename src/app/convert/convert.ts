@@ -23,24 +23,31 @@ export class Convert {
   //Metoder
 
   //Konverterar längd
+  convertLength(): void {
 
-  //Meter till foot
-  convertMeterToFoot(): void {
-    this.foot = this.meter * 3.28084;
-  }
+    //Kontroll för resultat beroende på om användare konverterar från meter eller foot
 
-  //Foot till meter
-  convertFootToMeter(): void {
-    this.meter = this.foot / 3.28084;
+    if (this.meter > 0) {
+      this.foot = this.meter * 3.28084;
+    }
+
+    //Foot till meter
+    else if (this.foot > 0) {
+      this.meter = this.foot / 3.28084;
+    }
   }
 
   //Konverterar temperatur
-   convertCelToFar(): void {
-    this.fahrenheit = (this.celcius * 9 / 5) + 32;
-  }
+  convertTemp(): void {
 
-    convertFarToCel(): void {
-    this.celcius = (this.fahrenheit - 32) * 5 / 9;
+    //Kontroll för resultat beroende på om användare konverterar från celcius eller farenheit
+    if (this.celcius > 0) {
+      this.fahrenheit = (this.celcius * 9 / 5) + 32;
+    }
+
+    else if (this.fahrenheit > 0) {
+      this.celcius = (this.fahrenheit - 32) * 5 / 9;
+    }
   }
 
 }
