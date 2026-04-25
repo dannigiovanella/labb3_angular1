@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './convert.html',
   styleUrl: './convert.css',
 })
+
+
 export class Convert {
   // Längd
   // Lagrar längdvärden från inputfälten
