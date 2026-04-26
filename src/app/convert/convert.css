@@ -1,0 +1,19 @@
+
+
+section{
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    margin-bottom: 1rem;
+}
+
+button{
+    margin-bottom: 1rem;
+}

@@ -6,3 +6,26 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: rgb(14, 14, 27);
+}
+
+body{
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(206, 206, 224);
+}
+
+footer{
+    color: rgb(240, 245, 248);
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
