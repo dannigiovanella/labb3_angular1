@@ -1,19 +1,18 @@
-
-nav{
+nav {
     width: 100%;
     background-color: rgb(11, 11, 43);
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: center;
     gap: 3rem;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(240, 245, 248);
     font-size: 1.3rem;
