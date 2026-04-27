@@ -1,31 +1,52 @@
-
-
+<!--Sektion för att konvertera längd-->
 <section class="converter-lenght">
     <h2>Konvertera längd</h2>
 
+    <!--Meter-->
     <label for="meter">Meter</label>
     <input type="number" id="meter" [(ngModel)]="meter">
 
-
+    <!--Foot-->
     <label for="foot">Foot</label>
     <input type="number" id="foot" [(ngModel)]="foot">
+
+    <!--Resultat-->
+    <p><strong>Resultat:</strong></p>
+    <p>Meter: {{ meter }}</p>
+    <p>Foot: {{ foot }}</p>
+
 
     <!--Knapp kopplat till metod för konvertering av längd-->
     <button (click)="convertLength()">Konvertera</button>
 
+    <!--Knapp för att rensa fält-->
+    <button (click)="clearLength()">Rensa</button>
+
+
 </section>
+
+<!--Sektion för att konvertera temperatur-->
 
 <section class="converter-temp">
     <h2>Konvertera grader</h2>
 
+    <!--Celsius-->
     <label for="celcius">Celcius</label>
     <input type="number" id="celcius" [(ngModel)]="celcius">
 
-
+    <!--Farenheit-->
     <label for="farenheit">Farenheit</label>
     <input type="number" id="farenheit" [(ngModel)]="fahrenheit">
 
+    <!--Resultat-->
+    <p><strong>Resultat:</strong></p>
+    <p>Celsius: {{ celcius }}</p>
+    <p>Fahrenheit: {{ fahrenheit }}</p>
+
     <!--Knapp kopplad till metod för konvertering av temp-->
     <button (click)="convertTemp()">Konvertera</button>
+
+    <!--Knapp för att renska fält-->
+    <button (click)="clearTemp()">Rensa</button>
 
 </section>

@@ -30,13 +30,22 @@ export class Convert {
     //Kontroll för resultat beroende på om användare konverterar från meter eller foot
 
     if (this.meter > 0) {
+
       this.foot = this.meter * 3.28084;
     }
 
     //Foot till meter
     else if (this.foot > 0) {
+
       this.meter = this.foot / 3.28084;
     }
+  }
+
+
+  //Rensar fält
+  clearLength(): void {
+    this.meter = 0;
+    this.foot = 0;
   }
 
   //Konverterar temperatur
@@ -50,6 +59,13 @@ export class Convert {
     else if (this.fahrenheit > 0) {
       this.celcius = (this.fahrenheit - 32) * 5 / 9;
     }
+  }
+
+
+  //Rensar fält
+  clearTemp(): void {
+    this.celcius = 0;
+    this.fahrenheit = 0;
   }
 
 }
