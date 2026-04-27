@@ -14,7 +14,5 @@ export const routes: Routes = [
 
     //Route till 404-sida
     { path: "404", component: NotFound },
-    { path: "**", redirectTo: "404", pathMatch: "full" }
-
-
+    
 ];

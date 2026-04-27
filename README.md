@@ -4,6 +4,7 @@
 Detta projekt är en webbapplikation utvecklad med Angular. Syftet med applikationen är att visa grundläggande förståelse för Angulars struktur, komponenter, routing och databindning.
 
 ## Länk till webbplats:
+https://labb3-angular1.onrender.com
 
 ## Funktioner:
 - Navigationsmeny med routing mellan undersidor
