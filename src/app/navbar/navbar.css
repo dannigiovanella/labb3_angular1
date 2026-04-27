@@ -17,3 +17,7 @@ a {
     color: rgb(240, 245, 248);
     font-size: 1.3rem;
 }
+
+a:hover{
+    text-decoration: underline;
+}
