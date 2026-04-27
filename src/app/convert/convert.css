@@ -1,5 +1,6 @@
+/*Styling för Konverterings-sida*/
 
-
+/*Layout och styling för de båda sektioner för onvertering*/
 section {
     width: 100%;
     padding-top: 2rem;
@@ -20,7 +21,7 @@ h2{
     margin-bottom: 1.5rem;
 }
 
-
+/*Inputfält för värden*/
 input {
     margin-bottom: 1rem;
     padding: 1rem;
@@ -30,6 +31,7 @@ input {
     width: 100%;
 }
 
+/*Knappar för konvertering och Rensa*/
 button {
     margin-bottom: 0.3rem;
     margin-top: 0.5rem;

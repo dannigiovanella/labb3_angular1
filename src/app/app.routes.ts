@@ -12,7 +12,7 @@ export const routes: Routes = [
     //Route för tom sökväg
     { path: "", redirectTo: "start", pathMatch: "full" },
 
-    //Route till 404-sida
+    //Route till 404-sida om nåt skrivs fel i url
     { path: "**", component: NotFound }
     
 ];

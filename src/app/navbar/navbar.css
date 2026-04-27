@@ -1,3 +1,5 @@
+/*Styling och layout för navigationsbar*/
+
 nav {
     width: 100%;
     background-color: rgb(11, 11, 43);
@@ -18,10 +20,12 @@ a {
     font-size: 1.3rem;
 }
 
+/*Vid hovring*/
 a:hover{
     text-decoration: underline;
 }
 
+/*Vid aktiv sida*/
 .active {
   text-decoration: underline;
 }

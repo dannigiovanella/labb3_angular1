@@ -1,3 +1,7 @@
+/*Layout och styling för samtliga sidor på webbplats*/
+
+
+/*Header med bild och huvudriubrik*/
 header {
     position: relative;
     height: 400px;
@@ -25,7 +29,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
-
+/*Wrapper för att skapa en border runt allt innehåll förutom footer*/
 .borderwrap {
     box-shadow: 0 0 0 3px rgb(240, 245, 248);
     border-bottom-left-radius: 10px;
@@ -34,6 +38,7 @@ header h1 {
     padding-bottom: 2rem;
 }
 
+/*Styling och layout för huvdinnehåll*/
 main {
     width: 100%;
     min-height: 100vh;

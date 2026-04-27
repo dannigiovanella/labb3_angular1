@@ -1,3 +1,6 @@
+/*Styling för startsida*/
+
+/*laypout för huvutinnehåll*/
 section {
     margin: 0 auto;
     background-color: rgb(239, 239, 250);
@@ -22,6 +25,8 @@ p {
     text-align: left;
 }
 
+
+/*Layout för wrapper för knapp med tillhörande text*/
 div {
     display: flex;
     justify-content: center;
@@ -30,7 +35,7 @@ div {
     margin-top: 4rem;
     margin-bottom: 2rem;
 }
-
+/*Knapp för att skicka vidare*/
 button {
     padding: 0.8rem;
     font-size: 1.1rem;
