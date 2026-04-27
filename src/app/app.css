@@ -14,15 +14,15 @@ header img {
 }
 
 header h1 {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(240, 245, 248);
-  font-size: 2.5rem;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 245, 248);
+    font-size: 2.5rem;
 }
 
 
@@ -38,8 +38,7 @@ main {
     width: 100%;
     min-height: 100vh;
     background-color: rgb(206, 206, 224);
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 footer {

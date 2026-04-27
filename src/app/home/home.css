@@ -1,0 +1,58 @@
+section {
+    margin: 0 auto;
+    background-color: rgb(239, 239, 250);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+p {
+    max-width: 65ch;
+    text-align: left;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(240, 245, 248);
+    border-radius: 5px;
+    background-color: rgb(38, 38, 83);
+}
+
+button:hover {
+    background-color: rgb(11, 11, 43);
+}
+
+
+/*Anpassning till mindre skärm*/
+@media (max-width: 700px) {
+
+
+
+    section {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}

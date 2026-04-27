@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 
 
 export class Convert {
+  
   // Längd
   // Lagrar längdvärden från inputfälten
   meter: number = 0;
