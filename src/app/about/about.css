@@ -5,12 +5,20 @@ article {
     margin-top: 4rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: 2rem;
 }
 
+h2{
+    margin-bottom: 2rem;
+}
+
+h3{
+    margin-bottom: 1rem;
+}
 
 p{
     max-width: 65ch;
+    margin-bottom: 1rem;
 }
 
 

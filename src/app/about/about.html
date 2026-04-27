@@ -1,14 +1,42 @@
-
 <!--Sida som förkalrar vad weppapp går ut på och egna tankar kring arbetet med den-->
 
 <article>
 
     <h2>Om webbapplikationen</h2>
 
-    <p></p>
+    <p>Denna webbplats är utvecklad med Angular och med mål att skapa en enkel applikation med ett antal undersidor och
+        med en fungerande navigation och sida där användare kan omvandla olika typer av mått.</p>
+
+    <p>Applikationen är uppbyggd med komponenter där varje sida samt navigation är en egen komponent. Navigationen
+        mellan sidorna hanteras med Angulars router vilket gör att innehållet uppdateras utan att sidan behöver laddas
+        om. För att styra mellan sidorna används Routerlink i navigationsmenyn. Vid felaktig url finns även en 404-sida
+        med länk till korrekt startsida.</p>
+
+    <p>Navigationen som är en egen komponent inkluderas i huvudkomponenten ”App”, vilket gör strukturen tydlig och
+        återanvändbar.</p>
+
+    <p>Webbplatsens huvudsida är konverteringssidan där användaren kan konvertera mellan meter och foot, samt celsius
+        och farenheit. Detta är implementerat med databinding där inputfälten är kopplade till varialber med two
+        way-binding (ngModel). Uträkningarna görs i komponenters metoder och triggas med event-binding när användaren
+        trycker på en knapp. Det finns även metod skapad på samma sätt för att rensa fält efter uträkning. databinding
+        används även för att skriva utt reslutat.</p>
+
+
+    <p>Stylingen har gjorts med CSS där global styling ligger i styles.css och mer specifik styling hanteras i
+        respektive komponent. Efter uppgiftens krav används även en bild för webbplatsen som används i header för att
+        presenter huvudrubrik/appnamn på ett mer tilltalande sätt. Denna bild implementeras med properetybinding ([src])
+        i huvudkomponenen. Bildkällan styrs istället från komponentens logik vilket gör den mer flexibel och återanvändbar.</p>
+
 
     <h3>Slutsats</h3>
 
-    <p></p>
+    <p>Under arbetets gång har jag fått en bättre förståelse för hur Angular hanterar navigering och hur routing skiljer
+        sig från vanliga HTML- länkar samt hur HTML och TypeScript fungerar tillsammans. Jag har även fått en tydligare
+        bild av hur komponenter, routing och databindning tillsammans bygger upp en dynamisk webbapplikation.</p>
+
+    <p>Genom att arbeta med komponenter, routing och databindning har jag fått förståelse i hur användarinput kopplas
+        till logik och hur innehåll kan uppdateras utan omladdning. Uppgiften har gett en bra grund för vidare arbete
+        med Angular, och jag kan se flera fördelar i att använda detta ramverk bland annat för dess tydliga struktur och
+        enkelhet.</p>
 
 </article>
