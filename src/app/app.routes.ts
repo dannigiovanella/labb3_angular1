@@ -13,6 +13,6 @@ export const routes: Routes = [
     { path: "", redirectTo: "start", pathMatch: "full" },
 
     //Route till 404-sida
-    { path: "404", component: NotFound },
+    { path: "**", component: NotFound }
     
 ];
